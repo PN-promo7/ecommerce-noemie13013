@@ -1,0 +1,109 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+  .container{
+    /* TODO : donner du padding 15Px à gauche et à droite */
+    width:100%;
+    padding-left: 15px;
+  }
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+
+.main-navigation {
+    background-color: white;
+    position: relative;
+}
+
+nav{
+  justify-content: space-between;
+  display: flex;
+}
+
+header {
+    display: none;
+  }
+ 
+.logo{
+  width: 50%;
+}
+
+nav div {
+  display:none;
+}
+
+.menu-burger{
+  color:black;
+  display:block;
+  font-size:2rem;
+  margin-top: 20px;
+  margin-right:45px;
+}
+
+single-product {
+    margin-left:20px;
+}
+
+
+.category-product{
+  display:block;
+  text-align:center;
+  font-size:1.5rem;
+}
+
+
+.shop-row{
+  display:inline;
+  margin-top: 30px;;
+}
+
+.shop{
+  display: inline;
+}
+
+.col-icon{
+  display:block;
+}
+
+.icon-feature p {
+  color: rgb(58, 199, 105);
+  display:none;
+}
+
+.new-foot p{
+  color: #fdc0ff;
+  text-align: center;
+}
+
+
+.container, .newsletter {
+  justify-content: center;
+  width: calc(100/2);
+}
+
+ul{
+  display:inline;
+  justify-content: center;
+}
+
+a{
+  display:inline;
+}
+
+.rs-foot{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 62px;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+
+
+
+
+}
